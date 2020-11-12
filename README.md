@@ -8,7 +8,8 @@ function truncateNumber(num, dec = 2) {
   return Math.trunc(num * calcDec) / calcDec;
 }
 
-
-4.199.toFixed(2);// => 4.20 this is not ok
-truncateNumber(4.199, 2);// = 4.19, this is what we want
+// this is not ok
+4.199.toFixed(2);// => 4.20
+// this is what we want
+truncateNumber(4.199, 2);// = 4.19
 ```
