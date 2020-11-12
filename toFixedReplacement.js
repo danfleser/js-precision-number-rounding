@@ -6,5 +6,8 @@ function truncateNumber(num, dec = 2) {
 }
 
 
+// this is not ok
 4.199.toFixed(2);// => 4.20
+
+// this is what we want
 truncateNumber(4.199, 2);// = 4.19
